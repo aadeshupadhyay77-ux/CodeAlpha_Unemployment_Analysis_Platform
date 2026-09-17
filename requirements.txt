@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+streamlit-extras
+openpyxl
+scikit-learn
+streamlit-carousel
