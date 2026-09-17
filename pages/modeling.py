@@ -338,10 +338,9 @@ if train_btn or "model_trained" in st.session_state:
 # ============================================================
 
 st.write("")
-col_a, col_b, _ = st.columns([2, 2, 6])
+col_a, col_b = st.columns(2)
 with col_a:
-    if st.button("⬅️ Back to Visualization", use_container_width=True):
-        st.switch_page("pages/visualization.py",width="stretch")
-with col_b:
-    if st.button("🏠 Back to Home", use_container_width=True):
-        st.switch_page("Dashboard.py",width="stretch")
+    if st.button("⬅️ Back to Visualization",width="stretch"):
+        st.switch_page("pages/Visualization.py")
+    if st.button("🏠 Back to Home",width="stretch"):
+        st.switch_page("Dashboard.py")
