@@ -248,15 +248,15 @@ with st.container(key="chartCont3"):
 st.write("")
 
 # ---- 6. Navigation Controls ----
-col_a, col_b, col_c, _ = st.columns([2, 2, 2, 4])
+col_a, col_b, col_c= st.columns(3)
 with col_a:
-    if st.button("⬅️ Back to EDA", use_container_width=True):
+    if st.button("⬅️ Back to EDA", width="stretch"):
         st.switch_page("pages/EDA.py")
 with col_b:
-    if st.button("⬅️ Back to Upload", use_container_width=True):
+    if st.button("⬅️ Back to Upload", width="stretch"):
         st.switch_page("pages/Upload Data.py")
 with col_c:
-    if st.button("➡️ Proceed to Modeling", use_container_width=True):
+    if st.button("➡️ Proceed to Modeling", width="stretch"):
         st.session_state.eda_df = filtered_df
         st.switch_page("pages/modeling.py")
 
