@@ -488,6 +488,15 @@ Explore the complete analysis, visualizations, COVID-19 impact analysis, and mac
 
 ---
 
+## 🚀 Live Demo
+
+Try the interactive **UnemployIQ — Unemployment Analysis Platform**:
+
+👉 **[Open Live Streamlit App](https://codealphaunemploymentanalysisplatform-tut47sztmfj9cyw5ywdj7a.streamlit.app/)**
+
+Explore unemployment trends, EDA, COVID-19 analysis, visualizations, dataset exploration, and machine learning models through the interactive dashboard.
+
+
 ## 📌 Project Name
 
 **UnemployIQ — Unemployment Analysis Platform**
