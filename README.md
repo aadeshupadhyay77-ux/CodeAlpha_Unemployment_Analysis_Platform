@@ -479,6 +479,13 @@ You may modify and extend the project according to your requirements.
 
 If you find **UnemployIQ** useful, consider giving the repository a ⭐ on GitHub.
 
+## 📊 Kaggle Notebook
+
+Explore the complete analysis, visualizations, COVID-19 impact analysis, and machine learning workflow on Kaggle:
+
+👉 **[View UnemployIQ on Kaggle](https://www.kaggle.com/code/aadeshupadhyay77/unemployiq-unemployment-analysis-prediction)**
+
+
 ---
 
 ## 📌 Project Name
